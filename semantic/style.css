@@ -57,7 +57,7 @@ body{
 .container {
     width: 100%;
     height: 100vh;
-    padding-left: 40px;
+    padding: 0 30px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -96,6 +96,49 @@ body{
 }
 
 /* fim tela 1 */
+
+/* tela 2 */
+.colunas {
+    flex-direction: row;
+    align-items: center;
+}
+
+.produto {
+    width: 33vw;
+}
+
+.titulo-produto {
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+
+.texto-produto {
+    font-size: 16px;
+    color: gray;
+    line-height: 28px;
+    margin: 20px 0;
+    width: 26vw;
+}
+
+.produto img {
+    width: 100%;
+}
+/* fim tela 2 */
+
+/* tela 3 */
+.container-texto-direita {
+    align-items: flex-end;
+    text-align: right;
+}
+/* fim tela 3 */
+
+/* tela 4 */
+.tres-colunas {
+    width: 31vw;
+    padding: 0 3vw;
+}
+/* fim tela 4 */
 
 /* rodapé */
 .rodape {
