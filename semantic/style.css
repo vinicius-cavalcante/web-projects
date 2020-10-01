@@ -39,5 +39,72 @@ body{
 }
 
 .menu a:hover {
-    color: grey;
+    color: rgb(186,153,0);
+}
+
+/* fim do header principal */
+
+/* classes para imagens de fundo */
+
+.banner1 {
+    background-image: url(images/purple-plant.jpg);
+}
+
+.banner2 {
+    background-image: url(images/brown-plant2.jpg);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mascara {
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titulo-container {
+    font-size: 40px;
+    color: white;
+}
+
+.texto-container {
+    font-size: 22px;
+    color: white;
+    margin: 40px 0;
+    width: 40vw;
+}
+
+.botao-container {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    background-color: rgb(186,153,0);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* fim tela 1 */
+
+/* rodapé */
+.rodape {
+    width: 100%;
+    height: 15vh;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
